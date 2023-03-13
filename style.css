@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #102937;
+}
+
+.header{
+    width: 100%;
+    height: 120px;
+    display: block;
+    background-color: #091d26;
+    text-align: center;
+}
+
+.header-text{
+    color: #ededed;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    padding-top: 10px;
+    font-size: 48px;
+}
+
+.header-line{
+    color: #ededed;
+    width: 360px;
+    margin: auto;
+}
+
+.inner-body{
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+    background-color: #102937;
+}  
+
+.inner-body img{
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.inner-body p{
+    color: #ededed;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.nav-list{
+    height: 50%;
+    width: 360px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.nav-list a:link {
+    text-decoration: none;
+}
+
+.nav-list a:hover{
+    color: #f9744b;
+}
+
+.nav-list a:active {
+    color: #AFFC41;
+}
+
+.nav-list a{
+    color: #ededed;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    margin: 24px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color: #091d26;
+    text-align: center;
+}
+
+body{
+    position:relative;
+}
+
+body::after{
+    content: '';
+    display: block;
+    height: 100px;
+}
+
+.footer h1{
+    color: #ededed;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    padding-top: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer hr{
+    color: #08141b;
+}
+
+.contact-div{
+    width: 1000px;
+    display: block;
+    padding-top: 10px;
+    margin: 0 auto;
+    background-color: #102937;
+    text-align: center;
+}
+
+.contact-div p{
+    color: #ededed;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    padding: 5px;
+    font-size: 24px;
+}
+
+.contact-div p span{
+    font-weight: 300;
+}
+
+.contact-div iframe{
+    padding-top: 15px;
+}
+
+.project-list{
+    background-color: red;
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.project-list li{
+    text-align: center;
+}
+
+.project-list h1{
+    color: #ededed;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    padding-top: 10px;
+    font-size: 32px;
+}
+
+.project-list a{
+    color: #ededed;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+
+.project-list a:hover{
+    color: #f9744b;
+}
+
+.project-list a:active{
+    color: #AFFC41;
+}
+
+.project-list img{
+    padding: 10px;
+}
+
+.project-list hr{
+    color: #ededed;
+    width: 400px;
+    margin: 10px auto;
+}
