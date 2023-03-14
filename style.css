@@ -138,11 +138,10 @@ body::after{
 }
 
 .project-list{
-    background-color: red;
+    background-color: #102937;
     width: 40%;
     margin: 0 auto;
     display: block;
-
 }
 
 .project-list li{
@@ -179,4 +178,8 @@ body::after{
     color: #ededed;
     width: 400px;
     margin: 10px auto;
+}
+
+body{
+    min-height: 100vh;
 }
