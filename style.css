@@ -33,7 +33,7 @@ body {
 }
 
 .inner-body{
-    width: 1200px;
+    width: 800px;
     display: block;
     margin: 0 auto;
     background-color: #102937;
@@ -176,10 +176,20 @@ body::after{
 
 .project-list hr{
     color: #ededed;
-    width: 400px;
+    width: 150px;
     margin: 10px auto;
 }
 
 body{
     min-height: 100vh;
+}
+
+.github-icon{
+    color: #ededed;
+}
+
+.map-div{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
 }
