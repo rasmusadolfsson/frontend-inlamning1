@@ -8,6 +8,7 @@
 
 body {
     background-color: #102937;
+    min-height: 100vh;
 }
 
 .header{
@@ -178,10 +179,6 @@ body::after{
     color: #ededed;
     width: 150px;
     margin: 10px auto;
-}
-
-body{
-    min-height: 100vh;
 }
 
 .github-icon{
